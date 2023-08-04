@@ -6,3 +6,45 @@
   color: #ffffff;
   outline: none;
 }
+
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(16, 16, 38),
+    rgb(149, 147, 191)
+  );
+}
+
+.logo {
+  width: 280px;
+  margin: 2px auto;
+  display: block;
+}
+
+main {
+  width: 350px;
+  border-radius: 20px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(16, 16, 38),
+    rgb(45, 44, 89)
+  );
+  margin: 0 auto 40px;
+  padding: 44px 24px 23px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 700;
+  color: #dddddd;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 0 auto;
+  border: 0.1rem solid #ffffff;
+  border-radius: 15px;
+  padding: 12px;
+}
