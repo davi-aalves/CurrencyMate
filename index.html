@@ -1,58 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>CurrencyMate</title>
-  </head>
-  <body>
-    <img
-      class="logo"
-      src="./assets/images/currency-exchange.png"
-      alt="an image of currency exchange."
-    />
-    <main>
-      <label
-        >Converter <b>de</b>
-        <select>
-          <option>R$ Real</option>
-        </select>
-      </label>
-      <label
-        >Converter <b>para</b>
-        <select>
-          <option>US$ Dólar Americano</option>
-          <option>€ Euro</option>
-          <option>£ Libra Esterlina</option>
-          <option>BTC Bitcoin</option>
-        </select>
-      </label>
-      <label
-        ><b>Valor </b
-        ><input class="input-currency" placeholder="R$ 10.000,00" />
-      </label>
-      <button class="convert-button">Converter</button>
-      <section>
-        <div class="currency-box">
-          <img src="./assets/images/real.png" alt="logo-moeda-a-converter" />
-          <p class="currency">Real</p>
-          <p class="currency-value">R$ 10.000,00</p>
-        </div>
-        <img class="arrow-img" src="./assets/images/seta.png" alt="seta" />
-        <div class="currency-box">
-          <img src="./assets/images/dollar.png" alt="logo-moeda-convertida" />
-          <p class="currency">Dólar Americano</p>
-          <p class="currency-value">US$ 2.000,00</p>
-        </div>
-      </section>
-    </main>
-  </body>
-  <script src="./assets/js/scripts.js"></script>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<title>CurrencyMate</title>
+	</head>
+	<body>
+		<img
+			class="logo"
+			src="./assets/images/currency-exchange.png"
+			alt="an image of currency exchange."
+		/>
+		<main>
+			<label
+				>Converter <b>de</b>
+				<select>
+					<option>R$ Real</option>
+				</select>
+			</label>
+			<label
+				>Converter <b>para</b>
+				<select>
+					<option>US$ Dólar Americano</option>
+					<option>€ Euro</option>
+					<option>£ Libra Esterlina</option>
+					<option>BTC Bitcoin</option>
+				</select>
+			</label>
+			<label
+				><b>Valor </b
+				><input class="input-currency" placeholder="R$ 10.000,00" />
+			</label>
+			<button class="convert-button">Converter</button>
+			<section>
+				<div class="currency-box">
+					<img src="./assets/images/real.png" alt="logo-moeda-a-converter" />
+					<p class="currency">Real</p>
+					<p class="currency-value-to-be-converted">R$ 10.000,00</p>
+				</div>
+				<img class="arrow-img" src="./assets/images/seta.png" alt="seta" />
+				<div class="currency-box">
+					<img src="./assets/images/dollar.png" alt="logo-moeda-convertida" />
+					<p class="currency">Dólar Americano</p>
+					<p class="currency-value">US$ 2.000,00</p>
+				</div>
+			</section>
+		</main>
+	</body>
+	<script src="./assets/js/scripts.js"></script>
 </html>

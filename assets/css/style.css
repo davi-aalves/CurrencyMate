@@ -1,113 +1,116 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Lato", sans-serif;
-  color: #ffffff;
-  outline: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Lato", sans-serif;
+	color: #ffffff;
+	outline: none;
 }
 
 body {
-  background-image: linear-gradient(
-    to bottom right,
-    rgb(16, 16, 38),
-    rgb(149, 147, 191)
-  );
+	overflow: hidden;
+	background-image: linear-gradient(
+		to bottom right,
+		rgb(16, 16, 38),
+		rgb(149, 147, 191)
+	);
 }
 
 .logo {
-  width: 280px;
-  margin: 2px auto;
-  display: block;
+	width: 160px;
+	margin: 2px auto;
+	display: block;
 }
 
 main {
-  width: 350px;
-  border-radius: 20px;
-  background-image: linear-gradient(
-    to bottom right,
-    rgb(16, 16, 38),
-    rgb(45, 44, 89)
-  );
-  margin: 0 auto 40px;
-  padding: 44px 24px 23px;
+	width: 350px;
+	border-radius: 20px;
+	background-image: linear-gradient(
+		to bottom right,
+		rgb(16, 16, 38),
+		rgb(45, 44, 89)
+	);
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	margin: 0 auto 40px;
+	padding: 44px 24px 23px;
 }
 
 label {
-  font-size: 14px;
-  font-weight: 700;
-  color: #dddddd;
+	font-size: 14px;
+	font-weight: 700;
+	color: #dddddd;
 }
 
 select {
-  background-color: rgb(45, 44, 89);
-  appearance: none;
+	background-color: rgb(45, 44, 89);
+	appearance: none;
 }
 
 select,
 input {
-  margin-top: 6px;
-  margin-bottom: 24px;
-  padding-left: 18px;
-  border: 1px solid #bbb;
-  border-radius: 5px;
-  height: 48px;
-  width: 100%;
-  font-size: 16px;
-  font-weight: 700;
-  cursor: pointer;
+	margin-top: 6px;
+	margin-bottom: 24px;
+	padding-left: 18px;
+	border: 1px solid #bbb;
+	border-radius: 5px;
+	height: 48px;
+	width: 100%;
+	font-size: 16px;
+	font-weight: 700;
+	cursor: pointer;
 }
 
 input {
-  color: rgb(0, 0, 0);
+	color: rgb(0, 0, 0);
 }
 
 button {
-  background-color: rgb(55, 30, 228);
-  height: 48px;
-  width: 100%;
-  border: none;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 30px;
-  cursor: pointer;
+	background-color: rgb(55, 30, 228);
+	height: 48px;
+	width: 100%;
+	border: none;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 30px;
+	cursor: pointer;
 }
 
 button:hover {
-  opacity: 0.8;
+	opacity: 0.8;
 }
 
 button:active {
-  opacity: 0.6;
+	opacity: 0.6;
 }
 
 section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 0 auto;
-  border: 0.1rem solid #ffffff;
-  border-radius: 15px;
-  padding: 12px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 0 auto;
+	border: 0.1rem solid #ffffff;
+	border-radius: 15px;
+	padding: 12px;
 }
 
 .arrow-img {
-  margin: 15px 0;
+	margin: 15px 0;
 }
 
 .currency-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 4px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 4px;
 }
 
 .currency {
-  color: #bdbebd;
+	color: #bdbebd;
 }
 
-.currency-value {
-  font-size: 20px;
-  font-weight: 700;
+.currency-value,
+.currency-value-to-be-converted {
+	font-size: 20px;
+	font-weight: 700;
 }
