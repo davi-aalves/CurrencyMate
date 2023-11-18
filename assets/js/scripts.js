@@ -11,7 +11,15 @@ function convertCurrency() {
 
 	const convertedValue = inputCurrencyValue / dolarToday;
 
-	console.log(convertedValue);
+	currencyValueToBeConverted.innerHTML = new Intl.NumberFormat("pt-BR", {
+		style: "currency",
+		currency: "BRL",
+	}).format(inputCurrencyValue);
+	currencyValueConverted.innerHTML = new Intl.NumberFormat("en-US", {
+		style: "currency",
+		currency: "USD",
+
+	}).format(convertedValue);
 }
 
 convertButton.addEventListener("click", convertCurrency);
