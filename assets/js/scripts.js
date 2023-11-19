@@ -30,4 +30,21 @@ function convertCurrency() {
 	}).format(inputCurrencyValue);
 }
 
+function changeCurrency() {
+	const currencyName = document.getElementById("currency-name");
+	const currencyImage = document.querySelector(".currency-img");
+
+	if (currencySelect.value == "dolar") {
+		currencyName.innerHTML = "Dólar americano";
+		currencyImage.src = "./assets/images/dollar.png";
+	}
+	if (currencySelect.value == "euro") {
+		currencyName.innerHTML = "Euro";
+		currencyImage.src = "./assets/images/euro.png";
+	}
+
+	convertCurrency();
+}
+
+currencySelect.addEventListener("change", changeCurrency);
 convertButton.addEventListener("click", convertCurrency);
