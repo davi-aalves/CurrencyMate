@@ -10,6 +10,8 @@ CurrencyMate é uma aplicação simples desenvolvida em HTML, CSS e JavaScript p
 4. Insira o valor que deseja converter no campo de entrada.
 5. Clique no botão "Converter" para ver o resultado.
 
+![Exemplo animado de como usar o conversor de moedas](/assets/images/CurrencyMateGif.gif)
+
 ## Funcionalidades
 
 - **Conversão Instantânea:** A aplicação atualiza automaticamente o resultado da conversão assim que você seleciona diferentes moedas ou insere um novo valor.
